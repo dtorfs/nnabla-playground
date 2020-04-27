@@ -33,7 +33,7 @@ test: simple
 simple: simple.c \
 	../nnabla-c-runtime/build/src/runtime/libnnablart_runtime.a \
 	../nnabla-c-runtime/build/src/functions/libnnablart_functions.a
-	$(CC) -g -O $(CFLAGS) $< $(LDFLAGS) -o$@
+	$(CC) -g -no-pie -O $(CFLAGS) $< $(LDFLAGS) -o$@
 
 
 .PHONY: clean
