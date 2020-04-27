@@ -1,5 +1,7 @@
 # nnabla-playground
 
+Examples of using nnabla and the nnabla c-runtime.
+
 ## Prerequisites
 nnabla: 
 
